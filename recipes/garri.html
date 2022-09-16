@@ -13,6 +13,19 @@
                 padding: 5px;
             }
         
+           * {
+            box-sizing:border-box;
+           } 
+
+            .u {
+            list-style-type: none;
+            float: left;
+          
+           }
+
+           li.u {
+            display: inline;
+           }
         </style>
     </head>
     <body>
@@ -25,21 +38,39 @@
         </section>
 
         <section>
-            <div class="grid-container">
-            <div class="grid-item">
-            <h4>Category</h4>
-            <p>Snacks</p>
-
-            <h4>Servings</h4>
-                <p>1</p>
+            
+           
+            <ul class="u">
+                <li class="u">
+            Category
+            <li>
+            Snacks
+            </li>
+            </li>
+            
             
 
-            <h4>Prep Time</h4>
-            <p>3 minutes</p>
+            <li>
+            Servings
+                <li>
+                1
+                </li>
+                </li>
             
-            <h4>Cook Time</h4>
-            <p>2 minutes</p>
-            </div>
+                <li class="u">
+            Prep Time
+            <li>
+            3 minutes
+            </li>
+            </li>
+            
+            <li class="u">
+            Cook Time
+            <li>
+            2 minutes
+            </li>
+            </li>
+            </ul>
             </div>
         </section>
         
